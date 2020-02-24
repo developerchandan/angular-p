@@ -13,6 +13,7 @@ import { SocialComponent } from './social/social.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { NotfoundComponentComponent } from './notfound-component/notfound-component.component';
+import { TestComponent } from './test/test.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { NotfoundComponentComponent } from './notfound-component/notfound-compon
     HeaderComponent,
     SocialComponent,
     NavigationComponent,
-    NotfoundComponentComponent
+    NotfoundComponentComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

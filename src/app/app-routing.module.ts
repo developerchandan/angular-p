@@ -8,9 +8,10 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ClientsComponent } from './clients/clients.component';
 import { PricingTablesComponent } from './pricing-tables/pricing-tables.component';
 import { HeaderComponent } from './header/header.component';
+import { TestComponent } from './test/test.component';
 
 
-const routes: Routes = [
+const routes: Routes = [{path:"", redirectTo: 'Home', pathMatch: 'full'},
   { path: 'Home', component: HeaderComponent },
   { path: 'About', component: IntroductionComponent },
   { path: 'Gallery', component: GalleryComponent },
